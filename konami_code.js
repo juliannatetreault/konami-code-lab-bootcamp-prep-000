@@ -11,18 +11,18 @@ const codes = [
   "a"
 ];
 
+let i = 0;
+
 function init() {
-  
-  let i = 0;
   
   document.body.addEventListener('keydown', (e) => {
     
     const key = e.key;
     
     if (key === codes[i]) {
-      index++;
+      i++;
       
-      if (index === codes.length) {
+      if (i === codes.length) {
         alert('Konami congrats!');
         
         i = 0;
