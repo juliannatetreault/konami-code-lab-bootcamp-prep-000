@@ -20,9 +20,9 @@ function init() {
     const key = e.key;
     
     if (key === codes[i]) {
-      i++;
+      index++;
       
-      if (i === codes.length) {
+      if (index === codes.length) {
         alert('Konami congrats!');
         
         i = 0;
