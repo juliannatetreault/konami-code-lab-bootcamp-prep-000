@@ -14,7 +14,6 @@ const codes = [
 function init() {
   
   let i = 0;
-  let 
   
   document.body.addEventListener('keydown', (e) => {
     
